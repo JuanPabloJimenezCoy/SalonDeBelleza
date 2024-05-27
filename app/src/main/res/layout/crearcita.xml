@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/purple_500">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:text="Selecciona un Estilo de uñas:"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/black"/>
+
+            <!-- Uñas trasparentes -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/imageViewUñasTrasparentes"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:src="@drawable/trasparentes" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewUñasTrasparentes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Normales"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textViewPrecioUñasTrasparentes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="$23.000"
+                        android:textSize="20sp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <RadioButton
+                    android:id="@+id/radioButonUñastrasparentes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="55dp"
+                    android:layout_margin="40dp">
+                </RadioButton>
+
+            </LinearLayout>
+            <!-- Uñas multicolor -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/imageViewUñasMulticolor"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:src="@drawable/mulricolores" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewUñasMulticolor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Multicolor"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textViewPrecioUñasMulticolor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="$28.000"
+                        android:textSize="20sp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <RadioButton
+                    android:id="@+id/radioButonUñasMulticolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="55dp"
+                    android:layout_margin="40dp">
+                </RadioButton>
+
+            </LinearLayout>
+            <!-- Uñas morado y rosado -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/imageViewUñasMyr"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:src="@drawable/morado_y_rosado" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewUñasMyr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rosas con morado"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textViewPrecioUñasMyr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="$25.000"
+                        android:textSize="20sp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <RadioButton
+                    android:id="@+id/radioButonUñasMyr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="55dp"
+                    android:layout_margin="40dp">
+                </RadioButton>
+
+            </LinearLayout>
+            <!-- Uñas Ondas -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/imageViewUñasOndas"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:src="@drawable/ondas" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewUñasOndas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ondas"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textViewPrecioUñasOndas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="$30.000"
+                        android:textSize="20sp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <RadioButton
+                    android:id="@+id/radioButonUñasOndas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="55dp"
+                    android:layout_margin="40dp">
+                </RadioButton>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/buttonsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/selectDateButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seleccione fecha"
+                android:onClick="showDatePickerDialog" />
+
+            <Button
+                android:id="@+id/sendButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enviar" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
